@@ -6,6 +6,7 @@ namespace PerfectBody.UiTests
     {
         public static IApp StartApp(Platform platform)
         {
+            char n ='';
             if (platform == Platform.Android)
             {
                 return ConfigureApp
